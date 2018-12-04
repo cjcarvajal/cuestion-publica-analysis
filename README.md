@@ -1,6 +1,6 @@
 # We know what you did - An analysis on Colombia congressman financial assests 
 
-## Take to the visualization
+## Take me to the visualization
 
 Ok, we know you are anxious so [click here](https://cjcarvajal.github.io/cuestion-publica/)
 
@@ -11,7 +11,6 @@ Cuestion Publica is an independent journalist organization based in Colombia, fo
 <div style="text-align:center">
 <img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/big_logo.jpeg" width="800" style="display:block; margin:auto;">	
 </div>
-
 
 In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an official agency which controls and manages taxes on citizens and companies for incomes and goods,  recollects tariffs for the flow of goods in and out of a country and manages taxes on  betting games [1](https://www.dian.gov.co/). DIAN is under the direction of a bigger official entity called Ministerio de Hacienda which is itself under the control of the Presidency. The DIAN is responsible of the country’s fiscal health and protecting the public economic order through the management and the control compliance with tax obligations. Finally, it enforces penalties and fines to those who don’t comply to the rules. To implement this control, the entity has standardized a process forcing individuals or companies with incomes coming from economic activities in Colombia, or those who possess assets (such as real estate properties or vehicles for instance). This categorization also includes citizens and companies from other countries. The process is known as declaración de renta (DDR) in which the aforementioned shall fill a form stating which goods they possess, how much they received as income and how much they have spent [2](https://www.dian.gov.co/impuestos/personas/Renta_Personas_Naturales_2017/Presentacion_de_la%20Declaracion/Paginas/default.aspx).
 
