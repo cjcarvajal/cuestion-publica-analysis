@@ -42,9 +42,9 @@ We define some tasks that lead our analysis:
 
 ## How
 
-![vis 1](https://bit.ly/2QFJUy9 | width=250)
-![vis 2](https://bit.ly/2Qd37aG | width=250)
-![vis 3](https://bit.ly/2SmKZI0 | width=250)
+![vis 1](https://bit.ly/2QFJUy9|width=250)
+![vis 2|width=250](https://bit.ly/2Qd37aG)
+![vis 3](https://bit.ly/2SmKZI0|width=250)
 
 ## Insights
 ## The team
