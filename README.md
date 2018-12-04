@@ -31,6 +31,8 @@ It's important to understand some basic concepts about the DDR:
 * Rentas: Represents the earns and incomes for a person, for example the salary. AKA **earns** (ganancia) in our analysis.
 * Impuesto a Cargo: Represents the amount of money a person should pay as tax, it's calculated over the earns. In practice, some discounts are applied so this value represent the tax before discounts so in our analysis is AKA **impuesto sin descuento**.
 
+<img src="https://bit.ly/2QxPEJX" width="500">
+
 
 ## Why
 
@@ -41,9 +43,9 @@ We define some tasks that lead our analysis:
 * Identify and compare (present) outliers on the relation between the earns of one year and the wealth of the next one. According to the tax regulations, a person declared it's earns on one year and then, this assest became wealth, so the next years is not necessary to declare them again. The earns naturally are expended in several things as food, transportation or health, but with the congresman salary, it may be strange that all the earns be expended. According to this task, the user should be able to identify, and browse the congressman with high values of earns not transformed in wealth.
 
 ## How
-<img src="https://bit.ly/2QFJUy9" width="250">
-<img src="https://bit.ly/2Qd37aG" width="250">
-<img src="https://bit.ly/2SmKZI0" width="250">
+<img src="https://bit.ly/2QFJUy9" width="500">
+<img src="https://bit.ly/2Qd37aG" width="500">
+<img src="https://bit.ly/2SmKZI0" width="500">	
 
 ## Insights
 ## The team
