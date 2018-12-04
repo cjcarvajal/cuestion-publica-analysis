@@ -1,5 +1,9 @@
 # We know what you did - An analysis on Colombia congressman financial assests 
 
+## Take to the visualization
+
+Ok, we know you are anxious so [click here](https://cjcarvajal.github.io/cuestion-publica/)
+
 ## The history
 
 Cuestion Publica is an independent journalist organization based in Colombia, focused on investigations concerning interactions between politics and economics, and more accurately in public topics such as health system management, public wealth, laboral laws, social conflicts and minorities. Their interest in such topics is guided to achieve public political control on  governments and their members. Due to this interest, the “We know what you did” project was born, as an initiative to obtain political control on the representatives’ wealth. Aiming, for instance, to identify trends, features outliers in the financial assets of the congress members, and furthermore to identify possible corruptions cases. Having these objectives in mind, we, as a team, consider Visual Analytics as the right approach to help Cuestion Publica fulfill their purpose, as we can provide a common language using the Tamara Munzner framework, and thanks to the enhancement that visualization produces in the human analysis capabilities.
@@ -14,7 +18,6 @@ In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an offic
 Public officers, as members of the government, are not exempt from this process, and in this case,  the document is most of the time required by other entities, such as journalists, to exercise a political control. Cuestion Publica has required the DDR from twenty nine congress members in order to perform the aforementioned political control.
 
 Cuestion Publica achieved the recollection of DDR for some of the congress members, such data is the input of this analysis.
-
 
 ## The users
 
@@ -55,6 +58,18 @@ We define some tasks that lead our analysis:
 <img src="https://bit.ly/2SmKZI0" width="500" style="display:block; margin:auto;">	
 
 ## Insights
+
+We found some interesting insights for each visualization we made, here are some examples:
+
+* The wealth of the congress members increase in a more steepest slope than their taxes.
+* Angelica Lozano, Paola Agudelo y Gullermina Bravo are the "humble congress members" with wealth below the average.
+* Jorge Enrique Robledo is the wealthiest congressman (of the subgroup we analyze).
+* Olga Lucia Velásquez and Alexander Lopez Maya suffer drawbacks in the 2016.
+* Alexander López Maya give all his DDR.
+* Iván Name Vásquez just give one DDR.
+
+You could check more insights in the [full vis](https://cjcarvajal.github.io/cuestion-publica/) 
+
 ## The team
 
 * Carlos Javier Carvajal [@CHARLESNIKOV](https://twitter.com/CHARLESNIKOV?lang=en) | [Check my blog here](https://leantechblog.wordpress.com/) 
@@ -73,6 +88,7 @@ We use web programming technologies:
 Some of the graphics are embeded and were made using [PowerBi](https://powerbi.microsoft.com/en-us/).
 
 ## Related links
+
 
 
 
