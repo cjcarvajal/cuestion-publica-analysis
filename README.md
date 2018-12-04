@@ -4,7 +4,10 @@
 
 Cuestion Publica is an independent journalist organization based in Colombia, focused on investigations concerning interactions between politics and economics, and more accurately in public topics such as health system management, public wealth, laboral laws, social conflicts and minorities. Their interest in such topics is guided to achieve public political control on  governments and their members. Due to this interest, the “We know what you did” project was born, as an initiative to obtain political control on the representatives’ wealth. Aiming, for instance, to identify trends, features outliers in the financial assets of the congress members, and furthermore to identify possible corruptions cases. Having these objectives in mind, we, as a team, consider Visual Analytics as the right approach to help Cuestion Publica fulfill their purpose, as we can provide a common language using the Tamara Munzner framework, and thanks to the enhancement that visualization produces in the human analysis capabilities.
 
-<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/big_logo.jpeg" width="800" style="display:block; margin:auto;">
+<div style="text-align:center">
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/big_logo.jpeg" width="800" style="display:block; margin:auto;">	
+</div>
+
 
 In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an official agency which controls and manages taxes on citizens and companies for incomes and goods,  recollects tariffs for the flow of goods in and out of a country and manages taxes on  betting games [2]. DIAN is under the direction of a bigger official entity called Ministerio de Hacienda which is itself under the control of the Presidency. The DIAN is responsible of the country’s fiscal health and protecting the public economic order through the management and the control compliance with tax obligations. Finally, it enforces penalties and fines to those who don’t comply to the rules. To implement this control, the entity has standardized a process forcing individuals or companies with incomes coming from economic activities in Colombia, or those who possess assets (such as real estate properties or vehicles for instance). This categorization also includes citizens and companies from other countries. The process is known as declaración de renta (DDR) in which the aforementioned shall fill a form stating which goods they possess, how much they received as income and how much they have spent [3].
 
@@ -33,7 +36,9 @@ It's important to understand some basic concepts about the DDR:
 
 The data abstraction is:
 
+<div style="text-align:center">
 <img src="https://bit.ly/2QxPEJX" width="500" style="display:block; margin:auto;">
+</div>
 
 
 ## Why
