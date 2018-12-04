@@ -41,10 +41,9 @@ We define some tasks that lead our analysis:
 * Identify and compare (present) outliers on the relation between the earns of one year and the wealth of the next one. According to the tax regulations, a person declared it's earns on one year and then, this assest became wealth, so the next years is not necessary to declare them again. The earns naturally are expended in several things as food, transportation or health, but with the congresman salary, it may be strange that all the earns be expended. According to this task, the user should be able to identify, and browse the congressman with high values of earns not transformed in wealth.
 
 ## How
-
-![vis 1](https://bit.ly/2QFJUy9|width=250)
-![vis 2|width=250](https://bit.ly/2Qd37aG)
-![vis 3](https://bit.ly/2SmKZI0|width=250)
+<img src="https://bit.ly/2QFJUy9" width="250">
+<img src="https://bit.ly/2Qd37aG" width="250">
+<img src="https://bit.ly/2SmKZI0" width="250">
 
 ## Insights
 ## The team
