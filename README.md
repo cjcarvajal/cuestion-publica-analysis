@@ -90,7 +90,7 @@ You could check more insights in the [full vis](https://cjcarvajal.github.io/cue
 
 * Carlos Javier Carvajal [@CHARLESNIKOV](https://twitter.com/CHARLESNIKOV?lang=en) | [Check my blog here](https://leantechblog.wordpress.com/) 
 * Monica Marcela Carvajal [@MoniMCarva](https://twitter.com/MoniMCarva?lang=en)
-* Marwan Mehenni
+* Marwan Mehenni [@MarwanMhn](https://twitter.com/MarwanMhn)
 
 ## What do we use to build this?
 
