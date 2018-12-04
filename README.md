@@ -13,7 +13,7 @@ Cuestion Publica is an independent journalist organization based in Colombia, fo
 </div>
 
 
-In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an official agency which controls and manages taxes on citizens and companies for incomes and goods,  recollects tariffs for the flow of goods in and out of a country and manages taxes on  betting games [2]. DIAN is under the direction of a bigger official entity called Ministerio de Hacienda which is itself under the control of the Presidency. The DIAN is responsible of the country’s fiscal health and protecting the public economic order through the management and the control compliance with tax obligations. Finally, it enforces penalties and fines to those who don’t comply to the rules. To implement this control, the entity has standardized a process forcing individuals or companies with incomes coming from economic activities in Colombia, or those who possess assets (such as real estate properties or vehicles for instance). This categorization also includes citizens and companies from other countries. The process is known as declaración de renta (DDR) in which the aforementioned shall fill a form stating which goods they possess, how much they received as income and how much they have spent [3].
+In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an official agency which controls and manages taxes on citizens and companies for incomes and goods,  recollects tariffs for the flow of goods in and out of a country and manages taxes on  betting games [1](https://www.dian.gov.co/). DIAN is under the direction of a bigger official entity called Ministerio de Hacienda which is itself under the control of the Presidency. The DIAN is responsible of the country’s fiscal health and protecting the public economic order through the management and the control compliance with tax obligations. Finally, it enforces penalties and fines to those who don’t comply to the rules. To implement this control, the entity has standardized a process forcing individuals or companies with incomes coming from economic activities in Colombia, or those who possess assets (such as real estate properties or vehicles for instance). This categorization also includes citizens and companies from other countries. The process is known as declaración de renta (DDR) in which the aforementioned shall fill a form stating which goods they possess, how much they received as income and how much they have spent [2](https://www.dian.gov.co/impuestos/personas/Renta_Personas_Naturales_2017/Presentacion_de_la%20Declaracion/Paginas/default.aspx).
 
 Public officers, as members of the government, are not exempt from this process, and in this case,  the document is most of the time required by other entities, such as journalists, to exercise a political control. Cuestion Publica has required the DDR from twenty nine congress members in order to perform the aforementioned political control.
 
@@ -22,7 +22,7 @@ Cuestion Publica achieved the recollection of DDR for some of the congress membe
 ## The users
 
 We have identified two kinds of users: the client and the website users.
-Cuestion Publica owns a website [5] where the team regularly updates the public on ongoing investigations,  as well as giving public access to documents recollected on such investigations. Cuestion Publica (CP) is run by three investigation journalists with some tech knowledge, as they recognize some terms as Javascript, programming languages and data cleaning. These three journalists are the clients, their expectation is to present a trend in the congressmen’s wealth, looking to identify sudden rises in the incomes or properties. 
+Cuestion Publica owns a website [3](https://cuestionpublica.com/) where the team regularly updates the public on ongoing investigations,  as well as giving public access to documents recollected on such investigations. Cuestion Publica (CP) is run by three investigation journalists with some tech knowledge, as they recognize some terms as Javascript, programming languages and data cleaning. These three journalists are the clients, their expectation is to present a trend in the congressmen’s wealth, looking to identify sudden rises in the incomes or properties. 
 
 The website users are our other kind of users. They are an heterogeneous group as we can’t suppose any tech knowledge or even basic financial terminology knowledge. The website users, which themselves are ‘clients’ of CP, represent the final user, because even if the CP staff can understand a visualization containing financial, fiscal and tax terms, the page visitors are the ones who must be capable to understand the visualization and formulate their own insights.
 
@@ -84,6 +84,9 @@ We use web programming technologies:
 * [D3 version 5](https://d3js.org/)
 * [css](https://www.w3schools.com/Css/)
 * [html](https://www.w3schools.com/html/)
+
+We build our color palette using [VIZ PALETTE](https://projects.susielu.com/viz-palette).
+To embed the scatterplot we check [Downloading and Embedding Notebooks](https://beta.observablehq.com/@jashkenas/downloading-and-embedding-notebooks)
 
 Some of the graphics are embeded and were made using [PowerBi](https://powerbi.microsoft.com/en-us/).
 
