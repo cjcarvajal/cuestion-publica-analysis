@@ -31,11 +31,18 @@ It's important to understand some basic concepts about the DDR:
 
 
 ## Why
+
+We define some tasks that lead our analysis:
+
+* Summarize distribution on the recived DDR, this is to present the number of DDR received by year and by congresman, so the user may be able to see the years with more and less DDR's and so, the congressman that give more and less DDR's.
+* Present and compare trends: Visualize the trends on the average for Patrimonio Liquido, Income and Taxes or by their alias **Riqueza**, **Ganancia** and **Impuesto sin descuentos**, the user should be able to identify common behoaviors on this variables, and locate sudden changes in the trend. This task is extended to the wealth of each congressman.
+* Identify and compare (present) outliers on the relation between the earns of one year and the wealth of the next one. According to the tax regulations, a person declared it's earns on one year and then, this assest became wealth, so the next years is not necessary to declare them again. The earns naturally are expended in several things as food, transportation or health, but with the congresman salary, it may be strange that all the earns be expended. According to this task, the user should be able to identify, and browse the congressman with high values of earns not transformed in wealth.
+ 
 ## How
 ## Insights
 ## The team
 
-* Carlos Javier Carvajal [@CHARLESNIKOV](https://twitter.com/CHARLESNIKOV?lang=en) [Check my blog here](https://leantechblog.wordpress.com/) 
+* Carlos Javier Carvajal [@CHARLESNIKOV](https://twitter.com/CHARLESNIKOV?lang=en) | [Check my blog here](https://leantechblog.wordpress.com/) 
 * Monica Marcela Carvajal [@MoniMCarva](https://twitter.com/MoniMCarva?lang=en)
 * Marwan Mehenni
 

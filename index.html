@@ -3,431 +3,273 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cuestion Publica - Sabemos lo que hiciste</title>
-    <link rel="stylesheet" type="text/css" href="styles/general_styles.css" />
-    <link rel="stylesheet" type="text/css" href="styles/vis_styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Violencia Intrafamiliar 2018</title>
 </head>
 
 <body>
-    <div id='sections'>
-        <section class="wrapper">
-            <h1>Sabemos lo que hiciste - Congresistas</h1>
-            <img class="central_img" style="width: 800px;" src="./resources/big_logo.jpeg">
-            <div class="right_logo">
-                <img style="width: 200px;" src="./resources/uniandes_logo.png">
-                </div>
-        </section>
-        <section class="wrapper">
-            <h2>Visual Analytics | Carlos Carvajal – Monica Carvajal - Marwan Mehenni</h2>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="title_images_container">
-                    <div class="title_image_wrapper_left"><img class="title_image_left" src="./resources/logo-justicia1.png"></div>
-                        <hr width="1" size="200" class="vertical_separator">
-                        <div class="title_image_wrapper_right"><img class="title_image_right" src="./resources/logo.png"></div>
-                        </div>
-                        <div class="upper_title">
-                            <span class="title">La lucha...</span>
-                        </div>
-                    </div>
-                    <div class="two_cols">
-                        <div class="section_text hal_size">
-                            <p>A principios de 2018 en aras de luchar por la transparencia en el Congreso, <span class="red_text"><b>Cuestión Pública</b></span> junto con <a href="https://www.dejusticia.org/presentamos-tutela-a-11-congresistas/">Dejusticia</a> comenzarón un proceso legal para que algunos congresistas entregaran sus declaraciones de renta.</p>
-                            <p>Se puso una tutela, pidiendo las declaraciones de los congresistas durante todos los años que han ejercido el cargo. Si fueron elegidos en el 2018 <b>debían entregar la del 2016.</b>
-                            </p>
-                        </div>
-                        <div class="hal_size">
-                            <img class="right_col_img" src="./resources/justice.jpeg">
-                            </div>
-                        </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/monopoly.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">El Objetivo...</span>
-                    </div>
-                </div>
-                <div class="section_text">
-                    <ol>
-                        <li><span class="red_subtitle">El Objetivo de Cuestión Pública</span>: Saber sí estos congresistas han
-                            presentado un comportamiento anormal durante el ejercicio del
-                            cargo, a partir del análisis de las variables más importantes de su
-                            Declaración de Renta.</li>
-                        <li><span class="red_subtitle">El Problema</span>: Hoy no existe ninguna figura legal que obligue a un congresista a entregar esta información.
-                        </li>
-                        <li>
-                            <span class="red_subtitle">La Solución: Tutelas!!</span> Gran regalo de la constitución del 91.
-                        </li>
-                    </ol>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/stop.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Para un momento... Queremos que nos entiendas, por lo que irás encontrando algunos tips que te ayudarán a leer mejor la información.</span>
-                    </div>
-                </div>
-                <div class="section_text">
-                    <hr class="separator">
-                    <span class="red_text enlarged_text"><b>Acá van los primeros:</b></span>
-                    <ol>
-                        <li>Las declaraciones de renta son anuales, esto implica que no hay ninguna otra información de ningún otro periodo entre cada año.</li>
-                        <li>Se recibieron las declaraciones de quienes
-                            aceptaron entregarlas y con la información que
-                            decidieron entregar.
-                        </li>
-                        <li>Usamos la declaración de renta de la DIAN debido a que es mas rigurosa que la declaración juramentada, esta ultima es diligenciada por los servidores publicos antes de posicionarse en el cargo y cuando se retiran. Mientras que la primera de caracter obligatorio cada año.
-                        </li>
-                    </ol>
-                    <hr class="separator">
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Entonces... Entendamos que se logró</span>
-                    </div>
-                </div>
-                <div class="section_text remove_margin">
-                    <span class="super_enlarged_text"><i>¿Cuántas declaraciones se recibieron, de qué años y de quiénes?</i></span>
-                    <br>
-                    <br>
-                    <span class="super_enlarged_text">Cada <span class="red_text">•</span> (punto) representa una declaración de renta, y cada <span class="red_text"><b>color</b></span> representa a un congresista</span>
-                </div>
-                <div id="chart1" class="graphic">
-                    <div id="bodychart1">
-                        <svg id='chartDDRs' width="700" height="550"></svg>
-                        <img src="./resources/legend-chart1.png" class="legend_container" width="300" height="500">
-                    </div>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="ok_text enlarged_text">Lo bacano!</p>
-                    <ul>
-                        <li>Alexander López Maya, congresista desde el 2002 entregó juiciosamente todas sus declaraciones.</li>
-                        <li>Juanita Goebertus es congresista desde el 2018, la tutela la obligaba para el año 2016, pero dió de ñapa 2014 y 2015.</li>
-                        <li>Jorge Enrique Robledo entregó sus declaraciones desde el 2006.</li>
-                        <li>Angelica Lozano, es congresista desde el 2014 entregó juiciosamente y dió de ñapa 2009 y 2010.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>Iván Name Vásquez solo entregó declaración el año 2009 a pesar de que su periodo como congresista inició el año 2010. No ha entregado declaraciones durante el ejercicio de su cargo.</li>
-                        <li>Antonio Correa solo entregó declaración el año 2016, su periodo como senador inició el año 2014.</li>
-                        <li>Armando Benedetti omitió la entrega de declaración del año 2015. Y antes del 2014 no entregó ninguna declaración. Es congresista desde 2002.</li>
-                        <li>Del partido Centro Democratico, solo Edward Rodríguez entregó juiciosamnete sus declaraciones.</li>
-                    </ul>
-                    <span>El análisis se centró en el periodo de 2014 a 2016, ademas para tener consistencia, solo incluimos a los congresistas que tienen información para los tres periodos, es decir, se excluirá a Armando Benedetti y a Antonio Correa.</span>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/red.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Antes de seguir...</span>
-                    </div>
-                </div>
-                <div class="subtitle">
-                    <span class="title">Entendamos cuáles son las variables que más relevancia tienen en las declaraciones y por qué</span>
-                </div>
-                <div class="section_text">
-                    <span class="red_text enlarged_text"><b>En orden de importancia:</b></span>
-                    <ol>
-                        <li><span class="red_text">Patrimonio Líquido:</span> Porque representa la ganancia neta de cada persona, y es la base de cuánto va a ser la carga tributaria. Coloquialmente hablando, esta es la mejor medida de la <b>riqueza</b> de la persona, porque representa lo que tiene neto en su patrimonio.</li>
-                        <li><span class="red_text">Total Rentas:</span> Es la suma de la Renta Líquida Gravable, Rentas Exentas, Total Ingreso No Constitutivo de Renta y Ganancias Ocasionales Gravables. Nos permite saber cuánto <b>ganancia</b> en plata tuvo una persona en el año, por ley no genera una carga tributaria en la declaración de renta.
-                            Coloquialmente hablando, esta es plata que le entra pero sobre esto no paga impuesto.</li>
-                        <li><span class="red_text">Total Impuesto a Cargo:</span> Esta es la carga tributaria real de la persona, es el resultado de la suma del impuesto sobre la renta + impuesto sobre ganancias ocacionales. Representa lo que tendría que pagar la personas (sin deducciones ni beneficios). Coloquialmente hablando, esto es el <b>impuesto sin descuentos</b>.</li>
-                    </ol>
-                    <span class="red_text enlarged_text"><b>OK sigamos...</b></span>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">¿Cómo ha sido la tendencia de estas variables en promedio?</span>
-                    </div>
-                    <div class="graphic">
-                        <svg id='principalAverage' width="900" height="400"></svg>
-                    </div>
-                    <svg id='legendAverage' class="legend_container" width="200" height="80"></svg>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="warning_text enlarged_text">Lo raro!</p>
-                    <ul>
-                        <li>La <b>riqueza</b> disminuyó entre el 2015 y 2016, sin embargo, la <b>ganancia</b> aumentó, esto puede deberse a que vendieron propiedades, o adquirierón prestamos.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>La <b>ganancia</b> de los congresistas aumentó mucho mas que el <b>impuesto sin descuento</b> que deben pagar. Esto puede deberse a los beneficios y descuentos a los que pueden acceder.</li>
-                    </ul>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Pero, concentrémonos en la variable más importante: La riqueza</span>
-                    </div>
-                </div>
-                <div class="section_text remove_margin">
-                    <hr class="separator">
-                    <span class="red_text enlarged_text"><b>Entendamos su comportamiento por congresista</b></span>
-                    <hr class="separator">
-                </div>
-                <div>
-                    <svg id='principalEarns' width="950" height="400"></svg>
-                    <svg id='legendEarns' class="legend_container" width="200" height="180"></svg>
-                </div>
-                <div class="section_text remove_margin">
-                    <hr class="separator">
-                    <span class="red_text enlarged_text"><b>Entendamos su variación porcentual</b></span>
-                    <hr class="separator">
-                </div>
-                <div class="graphic">
-                    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNmViMTNjYTctNWE4Mi00MTkxLWI2OWItNjU2MTcyY2JhYTdjIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="ok_text enlarged_text">Lo bacano!</p>
-                    <ul>
-                        <li>Angelica Lozano, Paola Agudelo y Gullermina Bravo, son los humildes del congreso, teniendo una <b>riqueza</b> en promedio 82% menor al promedio.</li>
-                        <li>Jorge Enrique Robledo al final del periodo es el más rico.</li>
-                        <li>Ivan Cepeda paso de estar debajo del promedio (humilde) a ser del grupo de los mas ricos.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>Olga Lucia Velásquez y Alexander Lopez Maya, tuvierón un 2015 fenomenal, pero un 2016 para olvidar, disminuyendo considerablemente su riqueza. Esto puede deberse a vender propiedades o deudas adquiridas.</li>
-                        <li>La disminución de la riqueza de Olga Lucia y Alexander es lo que causa la disminución de <b>riqueza</b> promedio en el congreso.</li>
-                        <li>Guillermina Bravo, fue que le termino con menos <b>riqueza</b> en el congreso.</li>
-                    </ul>
-                </div>
-                <div class="section_text paragraph_text">
-                    <span>¿Sí comparamos el comportamiento de la <b>riqueza</b>, <b>ganancia</b> e <b>impuesto sin descuentos</b> hay coherencia para cada congresistas?</span></span>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/stop.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Momento de unos tips...</span>
-                    </div>
-                </div>
-                <div class="section_text">
-                    <hr class="separator">
-                    <span class="red_text enlarged_text"><b>Para que sea más clara la información que sigue...</b></span>
-                    <ol>
-                        <li>Si una persona aumenta su <b>ganancia</b>, se esperaría que, en un comportamiento normal, esta se convertiera en <b>riqueza</b>, ya que o la mantiene en cuentas bancarias, compra bienes o hace inversiones, sin embargo, si no aumenta su riqueza, la pregunta obvia se vuelve ¿Qué hizo con esa plata?</li>
-                        <li>Sí la riqueza de la persona está aumentando, su carga tributaria también debe aumentar, es decir su <b>impuesto sin descuentos</b> debe aumentar.</li>
-                    </ol>
-                    <hr class="separator">
-                    <span class="red_text enlarged_text"><b>OK sigamos...</b></span>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size">
-                    <img src="./resources/purple.jpeg" class="upper_image">
-                    </div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Entonces... ¿Qué pasó con el impuesto?</span>
-                    </div>
-                </div>
-                <div class="section_text paragraph_text">
-                    <span class="enlarged_text">Evaluemos el comportamiento del<span class="red_text">  impuesto sin descuentos...</span></b></span>
-                </div>
-                <div class="graphic">
-                    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNWYxN2I5MjEtMTA5NC00ZWU4LWE5MjMtM2U4NjMyNWE4MzYwIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="ok_text enlarged_text">Lo bacano!</p>
-                    <ul>
-                        <li>Angélica Lozano y Paola Agudelo muestran un comportamiento normal en su impuesto.</li>
-                    </ul>
-                    <p class="warning_text enlarged_text">Lo raro!</p>
-                    <ul>
-                        <li>El impuesto para Jorge Enrique Robledo entre 2015 y 2016 no muestra casi diferencia.</li>
-                        <li>El impuesto para Doris Vega entre 2014 y 2015 muestra disminución.</li>
-                        <li>La <b>riqueza</b> de Guillermina Bravo disminuye y de la misma forma su <b>impuesto sin descuento</b>.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>No es posible un análisis continuo para Armando Benedetti debido a que omitió la declaración del año 2015.</li>
-                        <li>La declaración de Inti Asprilla para el 2014 no tenia información sobre el impuesto.</li>
-                    </ul>
-                </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Entonces... ¿Qué pasó con la ganancia?</span>
-                    </div>
-                </div>
-                <div class="graphic">
-                    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNDlmMjAxNDQtN2ExMC00Y2VmLTk1YjctMmY0YzQ3YjhlNjk2IiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="ok_text enlarged_text">Lo bacano!</p>
-                    <ul>
-                        <li>Le fue muy bien al congresista Alexander Lopez Maya en el año 2016 siendo el que mas ganancia tuvo.</li>
-                    </ul>
-                    <p class="warning_text enlarged_text">Lo raro!</p>
-                    <ul>
-                        <li>Ivan Cepeda y Olga Lucia Velásquez presentan un comportamiento similar, disminuyeron sus ganancias en el año 2015 y la aumentaron en el 2016.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>Armando Benedetti presentó una caida en sus ganancias en el año 2016.</li>
-                        <li>Guillermina Bravo e Inti Asprilla no presentaron datos sobre su renta para el 2014.</li>
-                    </ul>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="enlarged_text">Entonces ... ¿Plata de bolsillo?</p>
-                    <p>Las ganancias de un año, se deben volver riqueza del siguiente año, por que este dinero suele ir a cuentas de ahorro, inversiones o propiedades. No toda la ganancia se va a volver riqueza, pues como todo ser humano, los congresistas tienen gastos (transporte, alimentación, salud), entonces el dinero que llega y no se ahorra o se invierte se gasta ¿Cuanta plata les llego a los congresistas que no se volvió riqueza? Es decir, se les volvió plata de bolsillo.</p>
-                </div>
-                <div class="graphic">
-                    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiOWUxYTlmNGYtNzg0ZS00MGQ0LWE4ZTktZWI5ZjJiMjczZWIwIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="ok_text enlarged_text">Lo bacano!</p>
-                    <ul>
-                        <li>Edward Rodriguez e Inti Asprilla redujeron sus gastos para el año 2016.</li>
-                    </ul>
-                    <p class="danger_text enlarged_text">Lo feo!</p>
-                    <ul>
-                        <li>Guillermina Bravo y Olga Lucia Velázques aumentaron sus gastos.</li>
-                        <li>Alexander López Maya es el campeón del gasto en el congreso.</li>
-                    </ul>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p class="enlarged_text">Pero ¿Qué tanto se distancian los cambios en la riqueza vs la plata que les queda de bolsillo?</p>
-                    <p>Para entenderlo vamos a comparar las dos variables, y para entender mejor las relaciones entre las mismas hicimos 4 categorías, representada cada una en un cuadrante:</p>
-                    <ol>
-                        <li>Derrochadores: Estos son a los que se les disminuyó su riqueza (↓) pero aún así aumentó su plata de bolsillo (↑) y con ella ¿sus gastos? </li>
-                        <li>Empresarios: Esta categoría la componen todos aquellos que no solo lograrón que su riqueza (↑) aumentara sino que también su plata de bolsillo (↑) subió, a estos son a los que realemnte les esta yendo bien!</li>
-                        <li>Apretándose el cinturón: En este grupo estan aquellos congresistas que no solo tuvierón una reducción en su riqueza (↓), también tuvieron poquita plata de bolsillo (↑), es decir les toco gastar poco</li>
-                        <li>Inversionistas: Compuesta por aquellos congresistas que si bien tuvierón un aumento en su riqueza (↑), el aumento de su plata de bolsillo (↑) fue bajito, estos son los visionarios que prefieren aumentar su patrimonio y no convertir su dinero en plata de bolsillo.</li>
-                    </ol>
-                    
-                </div>
-                <div class="fullwidth">
-                    <div class="observable_graph" id="chart"></div>
-                    <img src="https://github.com/monicamarcelac/test/blob/master/line.png?raw=true" alt="line" 
-                    width="2" height="640">
-                    <div class="observable_graph" id="chart2"></div>
-                </div>
-                <div>
-                        <img class="central_img" style="width: 1200px;" src="https://github.com/monicamarcelac/test/blob/master/legend1-Scatterplot.png?raw=true" alt="legend" >
-                    </div>
-                    <div class="section_text paragraph_text">
-                        <p class="ok_text enlarged_text">Lo bacano!</p>
-                        <ul>
-                            <li>Iván Cepeda se consolida como inversionista entre 2015 y 2016, diminuyendo un poco su plata de bolsillo y aumentando casí en la misma proporción su riqueza.</li>
-                            <li>Jorge Enrique Robledo y Angélica Lozano dejan de ser inversionistas y se pasan a la categoría de empresarios en el 2016.</li>
-                            <li>Doris Vega se recuperó del derroche y en el 2016 se une a la categoría de los empresarios.</li>
-                        </ul>
-                        <p class="warning_text enlarged_text">Lo raro!</p>
-                        <ul>
-                            <li>Guillermina Bravo y Paola Agudelo pasan de empresarias a derrochadoras en el 2016, no solo disminuyendo su riqueza sino que aumentan considerablemente su plata de bolsillo.</li>
-                        </ul>
-                        <p class="danger_text enlarged_text">Lo feo!</p>
-                        <ul>
-                            <li>Olga Lucia pasa a la categoría de derrochadores en el 2016 ya que no solo disminuye su riqueza en más del 100% sino que aumenta en más de 600% su plata de bolsillo ¿ Un 2016 para olvidar?</li>
-                            <li>Alexander López Maya pasó de ser inversionista, teniendo en el 2015 el tercer nivel más bajo de plata de bolsillo, a ser en el 2016 el más derrochador redujo en más de 100 millones su riqueza pero aumento en más de 900 millones su plata de bolsillo ¿ Alexander se gasto más de 900 millones en un año dándose una buena vida?</li>
-                        </ul>
-                    </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Finalmente... ¿Qué tanto cambiarón cada una de estas variables para cada congresista respecto al total?</span>
-                    </div>
-                </div>
-                <div class="section_text paragraph_text">
-                    <p>Si evaluamos por ejemplo, en cuanto cambió en promedio en la riqueza de un congresista específico en estos 3 años versus el total ¿Que tan diferente fue? ¿El congresista esta por encima o por debajo del total? </p>
-                </div>
-                <div class="graphic">
-                        <iframe width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiOTY0ZGQyYzUtMmI3ZS00M2VmLTlhNzctZGRkYjZhOWUxMTIxIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
-                </div>
-                <div class="section_text paragraph_text">
-                        <p class="ok_text enlarged_text">Lo bacano!</p>
-                        <ul>
-                            <li>Iván Cepeda el más consistente, su riqueza aumenta ligeramente por debajo del promedio total, sus ganancias se reducen y sus impuestos sin descuentos aumentan pero por debajo del promedio. Lo más cercano a un comportamiento normal!</li>
-                            <li>Jorge Enrique Robledo y Doris Vega en estos tres años son los normales, en promedio tuvieron un crecimiento constante en todas sus variables pero además se mantuvieron por debajo del promedio del total.</li>
-                            <li>Angélica Lozano es a la que mejor le fue en estos 3 años, en general todas sus variables aumentaron por encima del promedio total. </li>
-                            <li>Paola Agudelo fue la que más aumento en tres años su riqueza y además logró un de los mayores crecimientos en ganacias, este fue un buen periodo para ella.</li>
-                        </ul>
-                        <p class="warning_text enlarged_text">Lo raro!</p>
-                        <ul>
-                            <li>Olga Lucia parace que en estos tres años no la paso tan bién, no solo fue de las que tuvo uno de los menores crecimientos de su riqueza sino que también de las que más ganancias perdió. Lo raro es que sus impuestos sin descuentos fuerón de los que más aumentarón.</li>
-                        </ul>
-                        <p class="danger_text enlarged_text">Lo feo!</p>
-                        <ul>
-                            <li>Gulliermina Bravo en 3 años pareciera ser a la que peor le fue, sus crecimientos en ganacias y en riquezas fueron por debajo del 4%. Pero susu impuesto sin descuentos crecieron desproporcionadamente ¿Será que Guillermina tiene amplios conocimientos tributarios o es logró coicidir con la mayoría de beneficios tributarios existentes?</li>
-                            <li>Alexander López Maya en tres años logró tener el mayor crecimiento ganancias visto para cualquiera de los congresistas ¿Un gran negociante o un gran derrochador?</li>
-                        </ul>
-                    </div>
-        </section>
-        <section class="wrapper">
-            <div class="header">
-                <div class="full_size"><img src="./resources/purple.jpeg" class="upper_image"></div>
-                    <div class="upper_title upper_title_overlaped">
-                        <span class="title">Lo que queda faltando...</span>
-                    </div>
-                </div>
-                <div class="graphic" id='vis'; position:relative; width:100%>
-                        <svg id ="vis4" width = 600 height = 600></svg>
-                            <aside float:right><span id = "textinfo" class="enlarged_text"></span></aside><br>
-                             <div>
-                                <button class ="myButton" onclick= showPrevious() >Previo</button><button class ="myButton" onclick= showNext()>
-                                Siguiente</button>
-                            </div>
-                </div>
+    <style>
+    .paragraph {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 18px;
+    }
 
+    .center_text {
+        text-align: center;
+    }
 
-                </div>
-        </section>
+    .line {
+        fill: none;
+        stroke-width: 1.5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .legend_container {
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    </style>
+    <h1 class="center_text">Violencia Intrafamiliar</h1>
+    <h2 class="center_text">¿Que ocurrió el 21 de Abril?</h2>
+    <div class="paragraph">
+        <p>Producto de la <a href="https://beta.observablehq.com/@cjcarvajal/tarea-2-visualizacion-sobre-datos-abiertos">visualización anterior</a>, se pudo evidenciar que ciertos departamentos del país presentaban un alto indice de incidentes de violencia intrafamiliar, sobrepasando a todos los del pais, dichos departamentos son:</p>
+        <ul>
+            <li><b>Cundinamarca:</b> 17247</li>
+            <li><b>Antioquia:</b> 5258</li>
+            <li><b>Valle:</b> 3278</li>
+            <li><b>Santander:</b> 2354</li>
+        </ul>
+        <p>Dada el alto número en estos departamentos, fueron seleccionados para hacer parte de un análisis de tendencia a lo largo del tiempo.</p>
+    </div>
+    <div class="container">
+        <svg id='principal' width="960" height="500"></svg>
+        <svg id='legend' class="legend_container" width="200" height="80"></svg>
+    </div>
+    <hr>
+    <div class="paragraph">
+        <h2>WHY - WHAT - HOW</h2>
+        <h3>Tarea Principal</h3>
+        <p>Identificar la tendencia (creciente, decreciente o constante) de los incidentes de violencia intrafamiliar por departamento.</p>
+        <h3>Tarea Secundaria</h3>
+        <p>Identificar los días en que los departamentos han presentado tanto valores elevados de incidentes como mínimos.</p>
+        <h3>Abstracción de Datos</h3>
+        <ul>
+            <li><b>Departamento:</b> Categorical</li>
+            <li><b>Fecha:</b> Ordered, Quantitative, Sequential</li>
+            <li><b>incidentesDepartamentoDia:</b> Ordered, Quantitative, Sequential</li>
+        </ul>
+        <h3>Marcas y Canales</h3>
+        <p>La marca usada es la <b>linea</b>, los canales dependiendo del atributo son:</p>
+        <ul>
+            <li><b>Departamento:</b> Color hue</li>
+            <li><b>Fecha:</b> Position on common scale</li>
+            <li><b>incidentesDepartamentoDia:</b> Position on common scale</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="paragraph">
+        <h2>Insights</h2>
+        <p>Cundinamarca presenta picos de violencia intrafamiliar los días sabados: 27 de enero, 3 de febrero, 17 de marzo, 28 de abril entre otros.</p>
+        <p>El 21 de abril se presenta el pico más alto para Cundinamarca, en el mismo dia los demas departamentos muestra un pico también. Los meses de abril, mayo y junio, se muestran como críticos para la problemática.</p>
+        <p>El 15 de febrero se evidencia una tendencia a la baja en todos los departamentos, siendo uno de los dias con menos incidentes en todo el periodo analizado y en general, es el mes con menos incidentes para estos departamentos.</p>
+        <p>Antioquia presenta el pico mas alto el 14 de marzo.</p>
+        <p>Valle presenta el pico mas alto el 24 de marzo.</p>
+        <p>Santander presenta el pico mas alto el 10 de marzo, el mismo día se presenta un aumento en Antioquia y Cundinamarca.</p>
     </div>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="controller/multiline.js"></script>
-    <script src="controller/process_vis.js"></script>
-    <script src="controller/chart1_ddr.js"></script>
-    <script src="controller/chart_global_congress.js"></script>
-    <script type="module">
-        import notebook from "https://api.observablehq.com/@monicamarcelac/scatterplot-1.js?key=767471ef8692c919";
-import { Inspector, Runtime } from "https://unpkg.com/@observablehq/notebook-runtime@1.2.0?module";
-const renders = {
-    "chart": "#chart",
-};
-for (let i in renders)
-    renders[i] = document.querySelector(renders[i]);
-Runtime.load(notebook, (variable) => {
-    if (renders[variable.name])
-        return new Inspector(renders[variable.name]);
-});
+    <script type="text/javascript">
+    var allowedDepartments = ['ANTIOQUIA', 'CUNDINAMARCA', 'VALLE', 'SANTANDER'];
+
+    var svg = d3.select("#principal"),
+        margin = { top: 20, right: 80, bottom: 30, left: 50 },
+        width = svg.attr("width") - margin.left - margin.right,
+        height = svg.attr("height") - margin.top - margin.bottom,
+        g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var timeParser = d3.timeParse("%Y-%m-%d");
+
+    var x = d3.scaleTime().range([0, width]),
+        y = d3.scaleLinear().range([height, 0]),
+        z = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var svg1 = d3.select("#legend").style("font", "10px sans-serif");;
+
+    svg.on("mousemove", function() {
+
+        timeFormater = d3.timeFormat("%Y/%m/%d %A");
+
+        actualXPos = d3.event.pageX;
+        outputText = "Fecha : " + timeFormater(x.invert(d3.event.pageX));
+
+        svg.selectAll(".day_label").remove();
+        svg.selectAll("rect").remove();
+
+        svg.append("text")
+            .attr("x", 50)
+            .attr("y", 30)
+            .attr("fill", "steelblue")
+            .attr("font-weight", "bold")
+            .attr("class", "day_label")
+            .text(outputText);
+
+        svg.append("rect")
+            .attr("x", actualXPos - 9)
+            .attr("y", 0)
+            .attr("width", 1)
+            .attr("height", svg.attr("height"))
+            .style("fill", "black")
+    });
+
+    g.on("mouseleave", function() {
+        svg.selectAll(".day_label").remove();
+        svg.selectAll("rect").remove();
+    })
+
+
+    var line = d3.line()
+        .curve(d3.curveBasis)
+        .x(function(d) { return x(d.fecha); })
+        .y(function(d) { return y(d.total); });
+
+    const allowedDepartment = (departamento) => {
+        return departamento && allowedDepartments.indexOf(departamento) > -1
+    }
+
+    const getTotalsByDepartment = (aggregated, department) => {
+        if (!department)
+            return null;
+
+        filtered = aggregated.filter(function(item) {
+            return item.id === department;
+        });
+
+        if (filtered)
+            return filtered[0];
+
+        return null;
+    }
+
+    const getSingleItemByDate = (values, date) => {
+        if (!date)
+            return null;
+
+        filtered = values.filter(function(item) {
+            return item.fecha.getTime() === date.getTime();
+        });
+
+        if (filtered)
+            return filtered[0];
+
+        return null;
+    }
+
+    const buildAccumulate = (incidentsArray) => {
+        aggregated = [];
+        incidentsArray.forEach(item => {
+
+            if (allowedDepartment(item.departamento) && item.fecha) {
+
+                formatedDate = timeParser(item.fecha.substr(0, 10));
+                itemByDept = getTotalsByDepartment(aggregated, item.departamento);
+
+                if (!itemByDept) {
+                    newItem = {
+                        id: item.departamento,
+                        values: [{ fecha: formatedDate, total: 1 }]
+                    };
+                    aggregated.push(newItem);
+                } else {
+                    itemByDate = getSingleItemByDate(itemByDept.values, formatedDate)
+                    if (itemByDate)
+                        itemByDate.total += 1;
+                    else
+                        itemByDept.values.push({ fecha: formatedDate, total: 1 })
+
+                }
+            }
+        });
+
+        aggregated.forEach(item => {
+            item.values.sort(function(a, b) {
+                return (b.fecha - a.fecha);
+            });
+        });
+
+        return aggregated;
+    }
+
+    const retrieveData = async() => {
+        let page;
+        let offset = 0;
+        let data = [];
+
+        do {
+            page = await (await fetch(
+                `https://www.datos.gov.co/resource/ta8z-ayhu.json?$offset=${offset}`
+            )).json();
+            offset += 1000;
+            data = data.concat(page);
+        } while (page.length);
+        data.splice(-1, 1);
+        return data;
+    }
+
+    retrieveData().then(response => {
+        var aggregated = buildAccumulate(response);
+        x.domain(d3.extent(response, function(d) { return timeParser(d.fecha.substr(0, 10)); }));
+
+        y.domain([
+            d3.min(aggregated, function(c) { return d3.min(c.values, function(d) { return d.total; }); }),
+            d3.max(aggregated, function(c) { return d3.max(c.values, function(d) { return d.total; }); })
+        ]);
+
+        z.domain(aggregated.map(function(c) { return c.id; }));
+
+        g.append("g")
+            .attr("class", "axis axis--x")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
+
+        var city = g.selectAll(".city")
+            .data(aggregated)
+            .enter().append("g")
+            .attr("class", "city");
+
+        city.append("path")
+            .attr("class", "line")
+            .attr("d", function(d) { return line(d.values); })
+            .style("stroke", function(d) { return z(d.id); })
+            .on('mouseover', function(obj) {
+                d3.select(this)
+                    .style('stroke-width', '3.5px');
+            })
+            .on('mouseout', function(obj) {
+                d3.select(this)
+                    .style('stroke-width', '1.5px');
+            });
+
+        g1 = svg1.append("g")
+            .selectAll("g")
+            .data(z.domain().slice().reverse())
+            .enter().append("g")
+            .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+        g1.append("rect")
+            .attr("width", 19)
+            .attr("height", 19)
+            .attr("fill", z);
+
+        g1.append("text")
+            .attr("x", 24)
+            .attr("y", 9.5)
+            .attr("dy", "0.35em")
+            .text(d => d);
+    });
     </script>
-    <script type="module">
-        import notebook from "https://api.observablehq.com/@monicamarcelac/scatterplot-2.js?key=bb927e73fcab3209";
-
- const renders = {
-
-   "chart2": "#chart2",
- };
-
- import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1.2.0?module";
- for (let i in renders)
-   renders[i] = document.querySelector(renders[i]);
-
- Runtime.load(notebook, (variable) => {
-   if (renders[variable.name])
-     return new Inspector(renders[variable.name]);
- });
-</script>
 </body>
 
 </html>
