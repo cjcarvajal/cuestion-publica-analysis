@@ -39,7 +39,7 @@ It's important to understand some basic concepts about the DDR:
 The data abstraction is:
 
 <div style="text-align:center">
-<img src="https://bit.ly/2QxPEJX" width="500" style="display:block; margin:auto;">
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/table_what.png" width="500" style="display:block; margin:auto;">
 </div>
 
 
@@ -53,8 +53,8 @@ We define some tasks that lead our analysis:
 
 ## How
 <img src="https://bit.ly/2QFJUy9" width="500" style="display:block; margin:auto;">
-<img src="https://bit.ly/2Qd37aG" width="500" style="display:block; margin:auto;">
-<img src="https://bit.ly/2SmKZI0" width="500" style="display:block; margin:auto;">	
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/congressman_earns.png" width="500" style="display:block; margin:auto;">
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/people.png" width="500" style="display:block; margin:auto;">	
 
 ## Insights
 
