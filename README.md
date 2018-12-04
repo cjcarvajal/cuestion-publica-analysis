@@ -52,9 +52,26 @@ We define some tasks that lead our analysis:
 * Identify and compare (present) outliers on the relation between the earns of one year and the wealth of the next one. According to the tax regulations, a person declared it's earns on one year and then, this assest became wealth, so the next years is not necessary to declare them again. The earns naturally are expended in several things as food, transportation or health, but with the congresman salary, it may be strange that all the earns be expended. According to this task, the user should be able to identify, and browse the congressman with high values of earns not transformed in wealth.
 
 ## How
-<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/multiline_graph.png" width="500" style="display:block; margin:auto;">
-<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/congressman_earns.png" width="500" style="display:block; margin:auto;">
-<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/people.png" width="500" style="display:block; margin:auto;">	
+
+For the main tasks defined previously, we made three visualizations respectively.
+
+### DDR summary distribution
+
+Here we encode the time dimension in the horizontal position, and the congressman is encoded using the color hue. The points are stacked so the vertical position encodes the total number of ddr received on one year.
+
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/task_1.png" width="500" style="display:block; margin:auto;">
+
+### Visualize trends on DDR variables
+
+The horizontal position is used to encode time dimension, the vertical position represents the value for the variable, and the color hue is used to identify the variable, or congressman. The line shows the trends change between the time period.
+
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/task_2.png" width="500" style="display:block; margin:auto;">
+
+### Wealth vs Earns
+
+This visualization, use the earns of one year and the wealth reported the next year. The horizontal position encodes the change in wealth between two consecutive periods, the vertical position encodes the earns reported for the analyzed period, and the color hue is used to identify the congressman.
+ 
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/task_3.png" width="500" style="display:block; margin:auto;">	
 
 ## Insights
 
