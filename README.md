@@ -75,7 +75,7 @@ You could check more insights in the [full vis](https://cjcarvajal.github.io/cue
 * Monica Marcela Carvajal [@MoniMCarva](https://twitter.com/MoniMCarva?lang=en)
 * Marwan Mehenni
 
-## How do we build this?
+## What do we use to build this?
 
 We use web programming technologies:
 
