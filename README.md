@@ -4,7 +4,7 @@
 
 Cuestion Publica is an independent journalist organization based in Colombia, focused on investigations concerning interactions between politics and economics, and more accurately in public topics such as health system management, public wealth, laboral laws, social conflicts and minorities. Their interest in such topics is guided to achieve public political control on  governments and their members. Due to this interest, the “We know what you did” project was born, as an initiative to obtain political control on the representatives’ wealth. Aiming, for instance, to identify trends, features outliers in the financial assets of the congress members, and furthermore to identify possible corruptions cases. Having these objectives in mind, we, as a team, consider Visual Analytics as the right approach to help Cuestion Publica fulfill their purpose, as we can provide a common language using the Tamara Munzner framework, and thanks to the enhancement that visualization produces in the human analysis capabilities.
 
-![cuestion publica](https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/big_logo.jpeg)
+<img src="https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/big_logo.jpeg" width="800" style="display:block; margin:auto;">
 
 In Colombia, the DIAN (Dirección de Impuestos y Aduanas Nacionales) is an official agency which controls and manages taxes on citizens and companies for incomes and goods,  recollects tariffs for the flow of goods in and out of a country and manages taxes on  betting games [2]. DIAN is under the direction of a bigger official entity called Ministerio de Hacienda which is itself under the control of the Presidency. The DIAN is responsible of the country’s fiscal health and protecting the public economic order through the management and the control compliance with tax obligations. Finally, it enforces penalties and fines to those who don’t comply to the rules. To implement this control, the entity has standardized a process forcing individuals or companies with incomes coming from economic activities in Colombia, or those who possess assets (such as real estate properties or vehicles for instance). This categorization also includes citizens and companies from other countries. The process is known as declaración de renta (DDR) in which the aforementioned shall fill a form stating which goods they possess, how much they received as income and how much they have spent [3].
 
@@ -31,7 +31,9 @@ It's important to understand some basic concepts about the DDR:
 * Rentas: Represents the earns and incomes for a person, for example the salary. AKA **earns** (ganancia) in our analysis.
 * Impuesto a Cargo: Represents the amount of money a person should pay as tax, it's calculated over the earns. In practice, some discounts are applied so this value represent the tax before discounts so in our analysis is AKA **impuesto sin descuento**.
 
-<img src="https://bit.ly/2QxPEJX" width="500">
+The data abstraction is:
+
+<img src="https://bit.ly/2QxPEJX" width="500" style="display:block; margin:auto;">
 
 
 ## Why
@@ -43,9 +45,9 @@ We define some tasks that lead our analysis:
 * Identify and compare (present) outliers on the relation between the earns of one year and the wealth of the next one. According to the tax regulations, a person declared it's earns on one year and then, this assest became wealth, so the next years is not necessary to declare them again. The earns naturally are expended in several things as food, transportation or health, but with the congresman salary, it may be strange that all the earns be expended. According to this task, the user should be able to identify, and browse the congressman with high values of earns not transformed in wealth.
 
 ## How
-<img src="https://bit.ly/2QFJUy9" width="500">
-<img src="https://bit.ly/2Qd37aG" width="500">
-<img src="https://bit.ly/2SmKZI0" width="500">	
+<img src="https://bit.ly/2QFJUy9" width="500" style="display:block; margin:auto;">
+<img src="https://bit.ly/2Qd37aG" width="500" style="display:block; margin:auto;">
+<img src="https://bit.ly/2SmKZI0" width="500" style="display:block; margin:auto;">	
 
 ## Insights
 ## The team
