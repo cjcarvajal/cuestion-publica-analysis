@@ -106,7 +106,9 @@ To embed the scatterplot we check [Downloading and Embedding Notebooks](https://
 
 Some of the graphics are embeded and were made using [PowerBi](https://powerbi.microsoft.com/en-us/).
 
-## Related links
+## Our Paper
+
+You can read the investigation paper [here](https://github.com/cjcarvajal/cuestion-publica-analysis/blob/master/resources/We%20know%20what%20you%20did%20-%20Congressman%20declared%20assets%20-%20Final%20document.pdf)
 
 
 
